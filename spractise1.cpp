@@ -3,7 +3,7 @@ using namespace std;
 
 void selection_sort(int arr[], int n){
 
-    for(int i = 0 ;i<n-1;i++){
+    for(int i = 0 ;i<n;i++){
         int min = i;
         for(int j =i+1 ; j<n ; j++){
             if(arr[j]<arr[min]){
@@ -19,9 +19,9 @@ void selection_sort(int arr[], int n){
     }
 }
 
-int main (){
+int main () {
     int arr[] = {10,30,56,87,65};
-    int n = sizeof(arr);
+    int n = sizeof(arr[n]);
     selection_sort(arr,n);
     return 0;
 
